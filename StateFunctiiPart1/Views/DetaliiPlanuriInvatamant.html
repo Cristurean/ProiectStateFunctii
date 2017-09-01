@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/data.css">
+</head>
+<body>
+    <div class="headercls" id="header">
+        <div class="logo">
+            <a href="#">Detalii Planuri Invatamant</a>
+            <button id="btnLogout" class="btnlogout1">Logout</button>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <ul id="nav">
+            <li>
+                <span>
+                    <img src="grupa.gif" width="32" height="32">
+                </span>
+                <a id="click_href" class="selected" href="GrupeAn.html">Grupe Facultate</a>
+                <span>
+                    <img id="logo1" src="carte.png" width="32" height="32">
+                </span>
+                <a id="click_href1" class="selected" href="PlanuriInvatamant.html">Planuri Invatamant</a>
+                
+                <span>
+                    <img id="logo3" src="alocare.jpg" width="32" height="32">
+                </span>
+                <a id="click_href3" class="selected" href="Alocare.html">Alocare Planuri</a>
+                <span>
+                    <img id="logo2" src="detalii.jpg" width="32" height="32">
+                </span>
+                <a id="click_href2" class="selected" href="DetaliiPlanuriInvatamant.html">Detalii Planuri Invatamant</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <!-- <div class="container1">-->
+  <!--  </div>-->
+    <div class="content">
+        <input class="search_bar" type="text" id="searchbar" onkeyup="search()" placeholder="Cautare">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <table id="detaliiTable"
+                       class="tableDet">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Cod</th>
+                            <th>Forma invatamant</th>
+                            <th>An</th>
+                            <th>Semestru</th>
+                            <th>Tip disciplina</th>
+                            <th>Cod disc</th>
+                            <th>Limda pred</th>
+                            <th>Forma predare</th>
+                            <th>Numar ore</th>
+                            <th>Tipunitst</th>
+                            <th>Ordine</th>
+                            <th>Catedra</th>
+                            <th>Ciclu studii</th>
+                            <th>Tip disciplina</th>
+                            <th>Limba predare</th>
+                            <th>CSLP</th>
+                            <th>Forma studiu</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <!--<div class="pagination-content">
+            <nav>
+                <ul class="pagination"></ul>
+            </nav>
+        </div>-->
+    </div>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script scr="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="js/detaliiPlanInv.js"></script>
+</body>
+</html>

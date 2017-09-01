@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/data.css">
+
+</head>
+<body>
+        <div class="headercls" id="header">
+            <div class="logo">
+                <a href="#">Plan Invatamant</a>
+                <button id="btnLogout" class="btnlogout">Logout</button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul id="nav">
+                <li>
+                    <span>
+                        <img src="grupa.gif" width="32" height="32">
+                    </span>
+                    <a id="click_href" class="selected" href="GrupeAn.html">Grupe Facultate</a>
+                    <span>
+                        <img id="logo1" src="carte.png" width="32" height="32">
+                    </span>
+                    <a id="click_href1" class="selected" href="PlanuriInvatamant.html">Planuri Invatamant</a>
+                    <span>
+                        <img id="logo1" src="alocare.jpg" width="32" height="32">
+                    </span>
+                    <a id="click_href" class="selected" href="Alocare.html">Alocare planuri</a>
+                    <span>
+                        <img id="logo1" src="detalii.jpg" width="32" height="32">
+                    </span>
+                    <a id="click_href1" class="selected" href="DetaliiPlanuriInvatamant.html">Detalii Planuri Invatamant</a>
+
+                </li>
+            </ul>
+        </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div class="contentTable">
+        <input type="text" class="search_bar" id="searchbar" name="search" onkeyup="search()" placeholder="Cautare">
+       
+         <div class="row">
+            <div class="col-sm-6">
+                <table id="planuriTable"
+                       class="tableP">
+                    <thead>
+                        <tr>
+                            <th>Unitpos</th>
+                            <th>Cod</th>
+                            <th>Sectiune</th>
+                            <th>Unitform</th>
+                            <th>Legatura sectiuni</th>
+                            <th>Nume</th>
+                            <th>Facultate</th>
+                            <th>Scurt</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="pagination-content">
+            <nav>
+                <ul class="pagination"></ul>
+            </nav>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/planInvatamant.js"></script>
+</body>
+</html>
